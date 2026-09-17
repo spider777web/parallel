@@ -3,7 +3,7 @@ agent any
 stages {
 stage('Checkout') {
 steps {
-git branch: 'main', url: 'https://github.com/spider777web/<repo-name>.git'
+git branch: 'main', url: 'https://github.com/spider777web/parallel.git'
 }
 }
 stage('Parallel Checks') {
