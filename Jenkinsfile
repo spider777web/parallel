@@ -10,7 +10,6 @@ stage('Parallel Checks') {
 parallel {
 stage('Frontend Check') {
 steps {
-3
 bat 'python frontend_check.py'
 }
 }
